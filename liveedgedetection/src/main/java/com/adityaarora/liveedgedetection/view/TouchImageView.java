@@ -408,7 +408,7 @@ public class TouchImageView extends android.support.v7.widget.AppCompatImageView
      */
     public void setZoom(TouchImageView img) {
     	PointF center = img.getScrollPosition();
-    	setZoom(img.getCurrentZoom(), center.x, center.y, img.getScaleType());
+    //	setZoom(img.getCurrentZoom(), center.x, center.y, img.getScaleType());
     }
     
     /**
